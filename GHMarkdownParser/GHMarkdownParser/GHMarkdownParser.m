@@ -40,7 +40,7 @@
             if (isCodeBlock) {
                 [fixedMarkdown appendFormat:@"      %@\n", line];
             } else {
-                [fixedMarkdown appendFormat:@"%@\n", line];
+                [fixedMarkdown appendFormat:@"%@  \n", line];
             }
         }
     }];
